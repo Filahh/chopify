@@ -1,0 +1,85 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+:root {
+  --chopify-purple: #292A44;
+  --chopify-white: #FFFFFF;
+  --chopify-teal: #F8B75D;
+  --chopify-brown: #E46B3F;
+  --chopify-dark-brown: #C4402A;
+}
+
+.text-purple {
+  color: var(--chopify-purple);
+}
+.text-white {
+  color: var(--chopify-white);
+}
+.text-teal {
+  color: var(--chopify-teal);
+}
+.text-brown {
+  color: var(--chopify-brown);
+}
+.text-dark-brown {
+  color: var(--chopify-dark-brown);
+}
+
+.bg-purple {
+  background-color: var(--chopify-purple);
+}
+.bg-white {
+  background-color: var(--chopify-white);
+}
+.bg-teal {
+  background-color: var(--chopify-teal);
+}
+.bg-brown {
+  background-color: var(--chopify-brown);
+}
+.bg-dark-brown {
+  background-color: var(--chopify-dark-brown);
+}
+
+
+.shadow-chopify {
+  box-shadow: 0 10px 25px rgba(196, 64, 42, 0.3); /* dark brown glow */
+}
+
+.shadow-teal {
+  box-shadow: 0 4px 12px rgba(248, 183, 93, 0.4); /* warm highlight */
+}
+
+.shadow-purple {
+  box-shadow: 0 8px 20px rgba(41, 42, 68, 0.4); /* cool depth */
+}
+
+.hover\:bg-dark-brown:hover {
+  background-color: var(--chopify-dark-brown);
+}
+
+.hover\:bg-teal:hover {
+  background-color: var(--chopify-teal);
+}
+
+.hover\:text-white:hover {
+  color: var(--chopify-white);
+}
+
+.hover\:text-brown:hover {
+  color: var(--chopify-brown);
+}
+
+.hover\:shadow-chopify:hover {
+  box-shadow: 0 10px 25px rgba(196, 64, 42, 0.3);
+}
+
+.hover\:shadow-brown:hover {
+  box-shadow: 0 10px 25px rgba(228, 107, 63, 0.25);
+}
+
+.diagonal-bg {
+  background-image: linear-gradient(110deg, #FFFFFF 60%, #292A44 50%);
+  background-size: cover;
+  background-position: center;
+}
